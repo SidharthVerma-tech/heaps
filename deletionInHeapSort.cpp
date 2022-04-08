@@ -81,13 +81,13 @@ int main(){
     cout<<endl;
     h.deleteFromHeap();
     h.print();
-    int arr[6]={-1,54,53,52,55,43};
-    int n=5;
+    int arr[7]={-1,67,42,43,21,56,40};
+    int n=6;
     for(int i=3;i>0;i--){
         heapify(arr,n,i);
     }
     cout<<"Printing the array right now " << endl;
-    for(int i=1;i<=5;i++){
+    for(int i=1;i<=6;i++){
         cout << arr[i] << " ";
     }cout << endl;
     return 0;
